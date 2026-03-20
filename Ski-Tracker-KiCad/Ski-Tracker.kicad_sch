@@ -3927,6 +3927,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 30.48) (xy 251.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b397789-e1b0-4845-b8c9-a67e64e38d84")
+	)
+	(wire
+		(pts
 			(xy 88.9 124.46) (xy 95.25 124.46)
 		)
 		(stroke
@@ -3977,7 +3987,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 30.48) (xy 251.46 30.48)
+			(xy 245.11 26.67) (xy 245.11 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4307,7 +4317,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 72.39) (xy 218.44 72.39)
+			(xy 213.36 72.39) (xy 218.44 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4466,7 +4476,7 @@
 		(uuid "229e3af8-efac-4801-866c-3eabaf55071e")
 	)
 	(label "3V3"
-		(at 255.27 30.48 0)
+		(at 245.11 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5076,7 +5086,7 @@
 		(uuid "f02baffb-00bf-4c38-83d6-343ff1ed5b35")
 	)
 	(label "GND"
-		(at 217.17 72.39 0)
+		(at 213.36 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5142,7 +5152,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "4.7uF"
 			(at 84.836 120.65 90)
 			(effects
 				(font
@@ -5150,7 +5160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 88.9 123.4948 0)
 			(effects
 				(font
@@ -5324,6 +5334,73 @@
 			(project ""
 				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 246.38 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "073b810d-28d6-41f8-b6d6-af1109c2dbfb")
+		(property "Reference" "C5"
+			(at 246.38 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 246.38 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d1dfdfe-e66b-488d-8453-4ffff167e3ab")
+		)
+		(pin "2"
+			(uuid "32a17b1d-8c8f-4585-b994-4a59ec2ed661")
+		)
+		(instances
+			(project "Ski-Tracker"
+				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6607,7 +6684,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f0729ba-a11e-4df7-9f24-b61941b7fd1c")
 		(property "Reference" "#PWR01"
 			(at 251.46 31.75 0)
@@ -6619,7 +6695,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 251.46 22.86 0)
+			(at 245.872 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
