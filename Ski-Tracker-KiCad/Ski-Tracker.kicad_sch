@@ -3593,6 +3593,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Status LED\n"
+		(exclude_from_sim no)
+		(at 35.306 116.332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47021dd2-93ca-482d-8802-9da673544691")
+	)
 	(text "Debugger"
 		(exclude_from_sim no)
 		(at 100.33 25.4 0)
@@ -3670,6 +3680,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58157e49-ed1f-40b4-804f-6ec3db262e11")
+	)
+	(junction
+		(at 46.99 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6253cf60-d6d9-44cc-89d6-fa80d01d65c9")
 	)
 	(junction
 		(at 237.49 72.39)
@@ -3967,6 +3983,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 142.24) (xy 31.75 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6937df33-2f42-43d7-8fc5-7faa9bc5fb33")
+	)
+	(wire
+		(pts
 			(xy 227.33 120.65) (xy 231.14 120.65)
 		)
 		(stroke
@@ -4007,6 +4033,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 133.35) (xy 31.75 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a103f62-02ee-4519-b307-4c52406b6be1")
+	)
+	(wire
+		(pts
 			(xy 19.05 46.99) (xy 24.13 46.99)
 		)
 		(stroke
@@ -4044,6 +4080,16 @@
 			(type default)
 		)
 		(uuid "88863069-ccb8-4c9a-8b77-0b6ca8c7ac90")
+	)
+	(wire
+		(pts
+			(xy 46.99 133.35) (xy 46.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899f70fe-6cac-4d4e-9fe9-75c67faf2cb9")
 	)
 	(wire
 		(pts
@@ -4377,6 +4423,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 133.35) (xy 46.99 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58430c2-82ec-4324-9913-cc7872247aa9")
+	)
+	(wire
+		(pts
 			(xy 90.17 33.02) (xy 99.06 33.02)
 		)
 		(stroke
@@ -4404,6 +4460,16 @@
 			(type default)
 		)
 		(uuid "f2a74316-a85e-4277-abc9-5826c34437ad")
+	)
+	(wire
+		(pts
+			(xy 25.4 123.19) (xy 31.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d343a1-7fdc-4914-b91c-743e76f7391e")
 	)
 	(wire
 		(pts
@@ -4465,6 +4531,26 @@
 		)
 		(uuid "0afc1a44-7f88-4ece-b0d4-b49e8d17fe15")
 	)
+	(label "GND"
+		(at 46.99 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1db062c4-13de-4b13-bb4e-a48d75fd27ff")
+	)
+	(label "LED1"
+		(at 69.85 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e7bcf50-1485-4d54-b281-bdda153e4d06")
+	)
 	(label "SCK"
 		(at 226.06 130.81 90)
 		(effects
@@ -4524,6 +4610,16 @@
 			(justify left bottom)
 		)
 		(uuid "2b587aa3-af9b-45d9-8a78-50fb9454eacd")
+	)
+	(label "LED3"
+		(at 69.85 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34fb4e75-4f92-40fd-88d5-a110040d94f1")
 	)
 	(label "VBUS"
 		(at 45.72 16.51 0)
@@ -4634,6 +4730,16 @@
 			(justify left bottom)
 		)
 		(uuid "621b0888-5bfa-4efb-bbd1-dbb5e001e0b5")
+	)
+	(label "LED2"
+		(at 25.4 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "623b4a63-b977-4bb2-90a7-510da927b9ce")
 	)
 	(label "VBUS"
 		(at 88.9 124.46 0)
@@ -4835,6 +4941,16 @@
 		)
 		(uuid "a5e0f0a3-b683-43f6-b892-52e89173710b")
 	)
+	(label "LED1"
+		(at 25.4 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6fdd593-4125-4c8a-990f-47e9ecdf36f5")
+	)
 	(label "GND"
 		(at 127 91.44 0)
 		(effects
@@ -4864,6 +4980,16 @@
 			(justify left bottom)
 		)
 		(uuid "ab6f1c06-c303-4910-bed0-2a39e6e29b99")
+	)
+	(label "LED3"
+		(at 25.4 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abdd4c64-190d-47a1-a4d4-e3d8019e6900")
 	)
 	(label "VBAT"
 		(at 100.33 80.01 0)
@@ -5014,6 +5140,16 @@
 			(justify left bottom)
 		)
 		(uuid "d70a080b-2e82-4079-9b1d-5de9366563b7")
+	)
+	(label "LED2"
+		(at 69.85 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db1926c6-73f6-4593-9588-8a5a48b6d782")
 	)
 	(label "3V3"
 		(at 234.95 96.52 0)
@@ -5340,32 +5476,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 246.38 135.89 90)
+		(lib_id "Device:LED")
+		(at 43.18 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "073b810d-28d6-41f8-b6d6-af1109c2dbfb")
-		(property "Reference" "C5"
-			(at 246.38 128.524 90)
+		(uuid "03d4da4b-725c-4d19-a4de-10dcc797be23")
+		(property "Reference" "D4"
+			(at 43.18 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 246.38 131.064 90)
+		(property "Value" "LED"
+			(at 43.18 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 246.38 135.89 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 43.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 135.89 0)
+			(at 43.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,8 +5518,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 135.89 0)
+		(property "Description" "Light emitting diode"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,15 +5537,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d1dfdfe-e66b-488d-8453-4ffff167e3ab")
+			(uuid "be1caa70-248a-4d26-9f5b-1adb96a3fc70")
 		)
 		(pin "2"
-			(uuid "32a17b1d-8c8f-4585-b994-4a59ec2ed661")
+			(uuid "a01d86a2-bce5-4db3-a069-c3ace092450f")
 		)
 		(instances
 			(project "Ski-Tracker"
 				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
-					(reference "C5")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 43.18 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06cbf7be-6918-4bf4-9bdd-58cb65a28e8f")
+		(property "Reference" "D5"
+			(at 43.18 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92bcd523-24f0-4a35-bbc6-066c2636389c")
+		)
+		(pin "2"
+			(uuid "06d3083d-ce1e-4f18-ab76-5019d623a14e")
+		)
+		(instances
+			(project "Ski-Tracker"
+				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5685,6 +5906,82 @@
 			(project "Ski-Tracker"
 				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 43.18 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22601ac7-c3b0-4a8b-8912-908fbfd65391")
+		(property "Reference" "D3"
+			(at 43.18 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba798939-b254-49e1-8950-eaf9ff5c6e1f")
+		)
+		(pin "2"
+			(uuid "228d0d3c-4d55-46b7-ba68-9d8bf405b147")
+		)
+		(instances
+			(project "Ski-Tracker"
+				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6677,6 +6974,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 35.56 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c8063df-5619-4bc9-a4f7-d6a9b8f1f25c")
+		(property "Reference" "R8"
+			(at 35.306 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 35.306 139.192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beb11aab-cc34-442c-8af6-c861670c94cc")
+		)
+		(pin "2"
+			(uuid "6af7da53-1e0a-47b0-8a95-ca9dd7e883e1")
+		)
+		(instances
+			(project "Ski-Tracker"
+				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 251.46 27.94 0)
 		(unit 1)
@@ -6808,6 +7172,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 35.56 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87270b76-7ed4-41b5-b2b8-8d429b8a7d44")
+		(property "Reference" "R7"
+			(at 35.306 126.492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 35.306 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d280b51a-6f5f-4730-a3e1-22f37becf669")
+		)
+		(pin "2"
+			(uuid "53c94df6-0e95-4bac-b89d-00869616c98f")
+		)
+		(instances
+			(project "Ski-Tracker"
+				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 85.09 132.08 270)
 		(unit 1)
@@ -6832,7 +7263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 81.28 133.0452 0)
 			(effects
 				(font
@@ -7001,6 +7432,73 @@
 			(project "Ski-Tracker"
 				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa7d6493-7bab-4c1e-846e-2105d5118acd")
+		(property "Reference" "R9"
+			(at 35.306 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 35.306 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2e0802b-481e-4ffd-8dff-10141d94fe85")
+		)
+		(pin "2"
+			(uuid "b6fb3586-1b00-4737-a5f2-cb6e843351e3")
+		)
+		(instances
+			(project "Ski-Tracker"
+				(path "/be385fdf-30ca-4fee-90e6-af9ff65b4b39"
+					(reference "R9")
 					(unit 1)
 				)
 			)
