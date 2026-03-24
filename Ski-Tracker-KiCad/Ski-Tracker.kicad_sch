@@ -6442,7 +6442,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5817"
+		(property "Value" "MBR0520"
 			(at 173.736 76.962 0)
 			(effects
 				(font
